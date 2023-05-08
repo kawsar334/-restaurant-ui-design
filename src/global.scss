@@ -1,0 +1,28 @@
+
+$maincolor:rgb(0,0,0,0.5) ;
+$borderColor :lightgray ;
+$white:white ;
+$crimson:#d54461;
+$btn:yellow;
+$gray:gray;
+$hover:rgba(255,255,255,0.1);
+$transition:1s all ease ;
+$blue:rgb(10, 10, 50);
+$star:#d35400;
+
+
+
+$width:778px;
+@mixin mobile {
+  @media (max-width:#{$width}) {
+    @content 
+  }
+  
+}
+
+.app{
+  width: 100vw;
+  background-color: rgb(33, 32, 35);
+  background-color: rgb(15, 14, 14);
+}
+
