@@ -6,14 +6,40 @@ import { useState } from "react";
 
 const Items = () => {
     const { products } = useSelector((state) => state.products);
-    const [data, setData] = useState(products)
+    const [data, setData] = useState(products);
+    const [currentPage, setCurrentPage] = useState(1);
+    const recordPerpage = 8;
+    const lastIndex =currentPage * recordPerpage;
+    const firstIndex = lastIndex - recordPerpage;
+    const records = data.slice(firstIndex, lastIndex);
+    const nPages = Math.ceil(data.length / recordPerpage);
+    const numbers = [...Array(nPages).keys()].slice(1)
+     
     const handleCategory = (cat) => {
         if (cat === "all") {
-            setData(products)
+            setData(products);
         } else {
             const items = products.filter((i) => i.cat === cat)
             setData(items)
         }
+    }
+
+    // handling next page functionality
+    const handlePrev = ()=>{
+        if(currentPage >0){
+            setCurrentPage(currentPage -1)
+        }
+    }
+
+    // handling next functionality 
+    const handleNext = ()=>{
+        if(currentPage  !== lastIndex){
+            setCurrentPage(currentPage +1)
+        }
+    }
+    // handling CurrentPage functionality
+    const handleCurrentPage = (i)=>{
+        setCurrentPage(i)
     }
 
     return (
@@ -23,7 +49,7 @@ const Items = () => {
                 <i className="fa-solid fa-magnifying-glass" ></i>
                 <input type="text" placeholder='Search' />
             </div>
-            <div className="itemmiddle">
+            {/* <div className="itemmiddle">
                 <ul>
                     <li onClick={() => handleCategory("all")}>All</li>
                     <li onClick={() => handleCategory("lunch")}>Lunch</li>
@@ -34,9 +60,9 @@ const Items = () => {
                     <li onClick={() => handleCategory("dinner")}>Soup</li>
                     <li onClick={() => handleCategory("lunch")}>fry</li>
                 </ul>
-            </div>
+            </div> */}
             <div className="itemcards">
-                {data?.map((item) => (
+                {records?.map((item) => (
 
                     <NavLink to={`/details/${item.id}`} className="card">
                         <div className="cardtop">
@@ -45,7 +71,6 @@ const Items = () => {
                         <div className="cardbottom">
                             <p className="cardtitle">{item.title}</p>
                             <div className="stars">
-
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
@@ -61,6 +86,14 @@ const Items = () => {
                     </NavLink>
                 ))}
 
+            </div>
+            <div className="pagination">
+                <button disabled={currentPage ===1} className="prev" onClick={handlePrev}>Prev</button>
+                {numbers.map((i)=>(
+                    <span key={i} className={`${i===currentPage && "active"}`} onClick={()=>handleCurrentPage(i)}>{i}</span>
+
+                ))}
+                <button className="next" disabled={currentPage===3} onClick={handleNext}>next</button>
             </div>
         </div>
     )

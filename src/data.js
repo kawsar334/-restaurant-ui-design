@@ -75,6 +75,78 @@ export const cartItems = [
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quod sit cumque libero, praesentium illo nostrum voluptate iusto repudiandae, amet deserunt reprehenderit, fugit aut distinctio error beatae soluta vitae odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam, porro totam at debitis optio laudantium id molestiae fuga, dolore voluptatum sed provident eaque nisi, animi facilis vel. Et, recusandae!",
 
     },
+    {
+        id: 9,
+        title: "Kebab",
+        img: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        cat: "dinner",
+        price: 100,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quod sit cumque libero, praesentium illo nostrum voluptate iusto repudiandae, amet deserunt reprehenderit, fugit aut distinctio error beatae soluta vitae odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam, porro totam at debitis optio laudantium id molestiae fuga, dolore voluptatum sed provident eaque nisi, animi facilis vel. Et, recusandae!",
+
+    },
+    {
+        id: 10,
+        title: "Breack fast",
+        img: "https://images.pexels.com/photos/2612340/pexels-photo-2612340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=11",
+        cat: "breackfast",
+        price: 30,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quod sit cumque libero, praesentium illo nostrum voluptate iusto repudiandae, amet deserunt reprehenderit, fugit aut distinctio error beatae soluta vitae odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam, porro totam at debitis optio laudantium id molestiae fuga, dolore voluptatum sed provident eaque nisi, animi facilis vel. Et, recusandae!",
+
+    },
+    {
+        id: 11,
+        title: "Biriyani",
+        img: "https://images.pexels.com/photos/1143754/pexels-photo-1143754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        cat: "dinner",
+        price: 30,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quod sit cumque libero, praesentium illo nostrum voluptate iusto repudiandae, amet deserunt reprehenderit, fugit aut distinctio error beatae soluta vitae odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam, porro totam at debitis optio laudantium id molestiae fuga, dolore voluptatum sed provident eaque nisi, animi facilis vel. Et, recusandae!",
+
+    },
+    {
+        id: 12,
+        title: "Egg",
+        img: "https://images.pexels.com/photos/2776939/pexels-photo-2776939.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        cat: "breackfast",
+        price: 30,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quod sit cumque libero, praesentium illo nostrum voluptate iusto repudiandae, amet deserunt reprehenderit, fugit aut distinctio error beatae soluta vitae odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam, porro totam at debitis optio laudantium id molestiae fuga, dolore voluptatum sed provident eaque nisi, animi facilis vel. Et, recusandae!",
+
+    },
+    {
+        id: 13,
+        title: "Biriyani",
+        img: "/imgs/b.png",
+        cat: "dinner",
+        price: 30,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quod sit cumque libero, praesentium illo nostrum voluptate iusto repudiandae, amet deserunt reprehenderit, fugit aut distinctio error beatae soluta vitae odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam, porro totam at debitis optio laudantium id molestiae fuga, dolore voluptatum sed provident eaque nisi, animi facilis vel. Et, recusandae!",
+
+    },
+    {
+        id: 14,
+        title: "Tea",
+        img: "https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        cat: "breackfast",
+        price: 30,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quod sit cumque libero, praesentium illo nostrum voluptate iusto repudiandae, amet deserunt reprehenderit, fugit aut distinctio error beatae soluta vitae odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam, porro totam at debitis optio laudantium id molestiae fuga, dolore voluptatum sed provident eaque nisi, animi facilis vel. Et, recusandae!",
+
+    },
+    {
+        id: 15,
+        title: "Biriyani",
+        img: "/imgs/b.png",
+        cat: "dinner",
+        price: 30,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quod sit cumque libero, praesentium illo nostrum voluptate iusto repudiandae, amet deserunt reprehenderit, fugit aut distinctio error beatae soluta vitae odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam, porro totam at debitis optio laudantium id molestiae fuga, dolore voluptatum sed provident eaque nisi, animi facilis vel. Et, recusandae!",
+
+    },
+    {
+        id: 16,
+        title: "Egg",
+        img: "https://images.pexels.com/photos/6823326/pexels-photo-6823326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        cat: "breackfast",
+        price: 30,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quod sit cumque libero, praesentium illo nostrum voluptate iusto repudiandae, amet deserunt reprehenderit, fugit aut distinctio error beatae soluta vitae odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam, porro totam at debitis optio laudantium id molestiae fuga, dolore voluptatum sed provident eaque nisi, animi facilis vel. Et, recusandae!",
+
+    },
 
 ]
 
